@@ -1,30 +1,30 @@
 package mycalculator;
 
-public class CalculadoraKSCG implements ICalculator{
-    
+public class CalculadoraKSCG implements ICalculator {
+
 	@Override
-    public double add(double a, double b){
-		return a+b;
+	public double add(double a, double b) {
+		return a + b;
 	}
-	
+
 	@Override
-	public double multiply(double a, double b){
-		return a*b;
+	public double multiply(double a, double b) {
+		return a * b;
 	}
-	
+
 	@Override
-	public double divide(double a, double b){
-		return a/b;
+	public double divide(double a, double b) {
+		return a / b;
 	}
-	
+
 	@Override
-	public double substract(double a, double b){
-		return a-b;
+	public double substract(double a, double b) {
+		return a - b;
 	}
-	
+
 	@Override
-	public String about(){
-		return "Calculadora implementada por" + Authors.KSCG;
+	public String about() {
+		return "Calculadora implementada por " + Authors.KSCG;
 	}
-    
+
 }
