@@ -1,5 +1,4 @@
 package mycalculator;
-import static java.long.Double.NaN;
 
 public class CalculadoraKSCG implements ICalculator{
     
