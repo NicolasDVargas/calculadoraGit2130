@@ -21,6 +21,15 @@ public class Main {
 
         // Karen Sofia Coral Godoy- KSCG
         pruebaKSCG();
+        
+        // Maria Paula Kimmel Escobar
+        	CalculadoraMPKE calculadoraMPKE = new CalculadoraMPKE();
+        	 System.out.println(calculadoraMPKE.about());
+        	 System.out.println(calculadoraMPKE.add(2, 10));
+        	 System.out.println(calculadoraMPKE.divide(5, 2));
+        	 System.out.println(calculadoraMPKE.multiply(3, 4.5));
+        	 System.out.println(calculadoraMPKE.substract(10.6, 6.5));
+        	
 
     }
 
@@ -36,5 +45,7 @@ public class Main {
         System.out.println(a + " * " + b + " = " + c.multiply(a, b));
         System.out.println(a + " / " + b + " = " + c.divide(a, b));
     }
+    
+    
 
 }
