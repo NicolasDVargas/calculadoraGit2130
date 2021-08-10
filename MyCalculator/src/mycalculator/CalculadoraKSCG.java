@@ -24,7 +24,7 @@ public class CalculadoraKSCG implements ICalculator {
 
 	@Override
 	public String about() {
-		return "Calculadora implementada por Andres Garcia" + Authors.KSCG;
+		return "Calculadora implementada por " + Authors.KSCG;
 	}
 
 }
