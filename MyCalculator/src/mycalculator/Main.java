@@ -21,8 +21,15 @@ public class Main {
 
         // Karen Sofia Coral Godoy- KSCG
         pruebaKSCG();
+        
+        //pruebas lida guerrero
+        CalculadoraLKGL prueba = new CalculadoraLKGL();
+        System.out.println("pruebas "+ prueba.about());
+        System.out.println("suma 5 y 6 "+ prueba.add(5,6));
+        System.out.println("division 5 y 6 "+ prueba.divide(5, 6));
+        System.out.println("multiplicacion 9 y 2 "+ prueba.multiply(9, 2));
+        System.out.println("resta 5 y 8 "+ prueba.substract(5, 8));
         	
-
     }
 
     public static void pruebaKSCG() {

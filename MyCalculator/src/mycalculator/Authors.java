@@ -15,5 +15,6 @@ public class Authors {
     public static final String KSCG = "Karen Sofia Coral Godoy";
     public static final String AMGM = "Andres Mauricio Garcia Mutis";
     public static final String MPKE = "Maria Paula Kimmel Escobar";
+    public static final String LKGL = "Lida Katherine Guerrero Leon";
     
 }
