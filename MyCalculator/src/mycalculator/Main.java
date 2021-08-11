@@ -41,7 +41,7 @@ public class Main {
         System.out.println("Resta de: 10 - 8 = "+ prueba2.substract(10, 8));
         System.out.println("\n");
         
-        //pruebas Daniel Reyes
+        //pruebas Camilo Cruz
         CalculadoraCACG prueba3 = new CalculadoraCACG();
         System.out.println("\n ");
         System.out.println(prueba3.about());
