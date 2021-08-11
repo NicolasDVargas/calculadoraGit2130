@@ -34,7 +34,7 @@ public class CalculadoraDARM implements ICalculator
 
     @Override
     public String about() {
-        return "Calculadora es implementada por: " + Authors.DARM;
+        return "Calculadora es implementada por : " + Authors.DARM;
     }
     
 }

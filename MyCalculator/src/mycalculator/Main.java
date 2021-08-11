@@ -32,7 +32,7 @@ public class Main {
 
         //pruebas Daniel Reyes
         CalculadoraDARM prueba2 = new CalculadoraDARM();
-        System.out.println("\n");
+        System.out.println("\n ");
         System.out.println(prueba2.about());
         System.out.println("Pruebas Funcionales: ");
         System.out.println("Suma de: 10 + 10 = "+ prueba2.add(10,10));
