@@ -38,7 +38,7 @@ public class Main {
         System.out.println("Suma: 10 + 10 = "+ prueba2.add(10,10));
         System.out.println("Division: 10 / 2 = "+ prueba2.divide(10, 2));
         System.out.println("Multiplicacion: 10 * 2 = "+ prueba2.multiply(10, 2));
-        System.out.println("Resta: 10 - 8 = "+ prueba2.substract(10, 8));
+        System.out.println("Resta de: 10 - 8 = "+ prueba2.substract(10, 8));
         System.out.println("\n");
         	
     }
