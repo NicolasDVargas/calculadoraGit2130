@@ -18,5 +18,6 @@ public class Authors {
     public static final String LKGL = "Lida Katherine Guerrero Leon";
     public static final String ODFP = "Oscar David Falla Pulido";
     public static final String DARM = "Daniel Andres Reyes Munoz";
+    public static final String CACG = "Camilo Andres Cruz Gomez";
     
 }

@@ -40,6 +40,17 @@ public class Main {
         System.out.println("Multiplicacion de: 10 * 2 = "+ prueba2.multiply(10, 2));
         System.out.println("Resta de: 10 - 8 = "+ prueba2.substract(10, 8));
         System.out.println("\n");
+        
+        //pruebas Daniel Reyes
+        CalculadoraCACG prueba3 = new CalculadoraCACG();
+        System.out.println("\n ");
+        System.out.println(prueba3.about());
+        System.out.println("Pruebas Funcionales: ");
+        System.out.println("Suma de: 9 + 10 = "+ prueba3.add(9,10));
+        System.out.println("Division de: 8 / 2 = "+ prueba3.divide(8, 2));
+        System.out.println("Multiplicacion de: 11 * 2 = "+ prueba3.multiply(11, 2));
+        System.out.println("Resta de: 9 - 8 = "+ prueba3.substract(9, 8));
+        System.out.println("\n");
         	
     }
 
