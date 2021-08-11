@@ -52,6 +52,16 @@ public class Main {
         System.out.println("Resta de: 9 - 8 = "+ prueba3.substract(9, 8));
         System.out.println("\n");
         	
+        //Pruebas Oscar Pacheco
+        CalculadoraOAPT prueba4 = new CalculadoraOAPT();
+        System.out.println("\n ");
+        System.out.println(prueba3.about());
+        System.out.println("Pruebas Funcionales: ");
+        System.out.println("22+50="+ prueba3.add(22,50));
+        System.out.println("20/5="+ prueba3.divide(20, 5));
+        System.out.println("7*7="+ prueba3.multiply(7, 7));
+        System.out.println("64-7="+ prueba3.substract(64, 7));
+        System.out.println("\n");
     }
 
     public static void pruebaKSCG() {
