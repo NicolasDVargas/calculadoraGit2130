@@ -20,5 +20,6 @@ public class Authors {
     public static final String DARM = "Daniel Andres Reyes Munoz";
     public static final String CACG = "Camilo Andres Cruz Gomez";
     public static final String OAPT = "Oscar Andres Pacheco Turizo";
+    public static final String NDVO = "Nicolas Daniel Vargas Ortiz";
     
 }

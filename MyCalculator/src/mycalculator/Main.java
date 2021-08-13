@@ -62,6 +62,9 @@ public class Main {
         System.out.println("7*7="+ prueba3.multiply(7, 7));
         System.out.println("64-7="+ prueba3.substract(64, 7));
         System.out.println("\n");
+
+        pruebaNDVO();
+
     }
 
     public static void pruebaKSCG() {
@@ -75,6 +78,20 @@ public class Main {
         System.out.println(a + " - " + b + " = " + c.substract(a, b));
         System.out.println(a + " * " + b + " = " + c.multiply(a, b));
         System.out.println(a + " / " + b + " = " + c.divide(a, b));
+    }
+
+    public static void pruebaNDVO() {
+
+        CalculadoraNDVO Prueba5 = new CalculadoraNDVO();
+        double a=12;
+        double b=6;
+        System.out.println("\n");
+
+        System.out.println(Prueba5.about());
+        System.out.println(a + " + " + b + " = " + Prueba5.add(a, b));
+        System.out.println(a + " - " + b + " = " + Prueba5.substract(a, b));
+        System.out.println(a + " * " + b + " = " + Prueba5.multiply(a, b));
+        System.out.println(a + " / " + b + " = " + Prueba5.divide(a, b));
     }
     
     
